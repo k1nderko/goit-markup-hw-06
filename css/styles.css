@@ -127,6 +127,15 @@ body {
     position: relative;
 }
 
+.title {
+    margin-bottom: 72px;
+    text-align: center;
+    font-size: var(--h2-font-size, 36px);
+    line-height: var(--h2-line-height, 1.11);
+    color: var(--crl-dark, #2E2F42);
+    text-transform: capitalize;
+}
+
 .active-nav-link::after {
     position: absolute;
     bottom: -1px;
@@ -287,13 +296,13 @@ body {
 }
 
 .team-section {
-    background-color: var(--dark-white-cloud);
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
+    background: #F4F4FD;
 }
 
 .team-list {
     display: flex;
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -1053,7 +1062,7 @@ position: absolute;
     }
 
     .advantages-list,
-    .customers-list {
+    .team-list {
         flex-direction: column;
         width: 100%;
         gap: 72px;
@@ -1074,11 +1083,11 @@ position: absolute;
     }
 
 
-    .our-customers {
+    .our-work {
         display: none;
     }
 
-    .our-customers {
+    .team-section {
         padding: 96px 0;
     }
 
@@ -1086,7 +1095,7 @@ position: absolute;
         max-width: 264px;
     }
 
-    .customers-list {
+    .team-list {
         align-items: center;
     }
 
@@ -1231,15 +1240,15 @@ position: absolute;
         padding: 96px 0;
     }
 
-    .our-customers {
+    .our-work {
         display: none;
     }
 
-    .our-customers {
+    .team-section {
         padding: 96px 0;
     }
 
-    .customers-list {
+    .team-list {
         flex-wrap: wrap;
         justify-content: center;
 
