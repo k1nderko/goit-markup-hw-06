@@ -334,13 +334,11 @@ body {
 }
 
 .team-member-name {
-    text-align: center;
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--black-navy);
+    color: #2E2F42;
 }
 
 .team-member-position {
@@ -427,11 +425,10 @@ body {
 
 .page-footer {
     background-color: var(--black-navy);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0:
 }
 
-.footer-container {
+. {
     display: flex;
     align-items: baseline;
 }
@@ -452,8 +449,18 @@ body {
 .footer-text {
     max-width: 264px;
     line-height: 1.5;
+    margin-top: 18px;
     letter-spacing: 0.02em;
     color: var(--dark-white-cloud);
+}
+
+footer-socials {
+    display: flex;
+    margin-right: 80px;
+    flex-direction: column;
+    color: var(--crl-white-background);
+    font-size: var(--body-medium-font-size, 16px);
+    font-weight: var(--body-medium-font-weight, 500);
 }
 
 .footer-socials-media {
@@ -1091,7 +1098,7 @@ position: absolute;
         padding: 96px 0;
     }
 
-    .customers-list-item {
+    .team-member {
         max-width: 264px;
     }
 
@@ -1259,7 +1266,7 @@ position: absolute;
         max-width: 584px;
     }
 
-    .customers-list-item {
+    .team-member {
         max-width: 264px;
         flex-basis: calc((100% - 24px) / 2);
     }
@@ -1285,7 +1292,7 @@ position: absolute;
     }
 
 
-    .main-footer {
+    .page-footer {
         padding: 96px 0;
     }
 
